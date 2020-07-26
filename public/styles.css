@@ -44,7 +44,7 @@ hr {
 
 
 .select {
-    width: 16rem;
+    width: 70%;
     position: relative;
     margin-bottom: 1.4rem;
 
@@ -53,7 +53,7 @@ hr {
 td {
     align-items: center;
     font-size: xx-large;
-    padding: 0 4rem 0 4rem;
+    padding: 0 1rem 0 1rem;
 }
 
 table {
