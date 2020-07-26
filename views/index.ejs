@@ -1,0 +1,71 @@
+<%- include('header') %>
+
+
+<div class="head">
+
+    <h1>NASA Mars Rover Images</h1>
+
+    <hr>
+
+    <form action="/" method="POST" class="roverform">
+
+        <table>
+                <tr>
+                    <td>
+                        <label for="cams">
+                            <p>Select a type of Camera</p>
+                        </label>
+
+                    </td>
+
+                    <td>
+                        <select class="cam selectpicker select" name="cams" id="cams">
+                            <%cams.forEach((cam) => {%>
+                            <option value="<%= cam %>"><%= cam %></option>
+                            <%});%>
+                        </select>
+                    </td>
+
+                </tr>
+
+            <tr>
+                <td>
+                    <label for="rover">
+                        <p>Select a Rover: </p>
+                    </label>
+
+                </td>
+
+                <td>
+                    <select class="rover selectpicker select" name="rover" id="rover">
+                        <%rovers.forEach((rover) => {%>
+                        <option value="<%= rover %>"><%= rover %></option>
+                        <%});%>
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="sol">
+                        <p>Enter the Mars Day: (SOL) </p>
+                    </label>
+
+                </td>
+
+                <td>
+                    <input type="number" class= "selectpicker select" name="sol" id="sol" value="1000">
+                </td>
+
+            </tr>
+        </table>
+
+        <button type="submit" name="button" class="btn btn-danger btn-lg">
+            Enter
+        </button>
+    </form>
+</div>
+
+<%- include('footer') %>

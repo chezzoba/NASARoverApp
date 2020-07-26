@@ -1,0 +1,66 @@
+.marspix {
+    width: 20%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.head {
+    text-align: center;
+}
+
+body {
+    background-color: #1d1135;
+}
+
+
+
+h1 {
+    color: #fcfbfe;
+    padding-top: 4rem;
+}
+
+hr {
+    width: 6rem;
+    height: 0px;
+    border-top: 12px dotted;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #ba1e68;
+    margin-top: 3rem;
+}
+
+.pictures {
+    margin-top: 3rem;
+}
+
+.roverform {
+    color: #fcfbfe;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.select {
+    width: 16rem;
+    position: relative;
+    margin-bottom: 1.4rem;
+
+}
+
+td {
+    align-items: center;
+    font-size: xx-large;
+    padding: 0 4rem 0 4rem;
+}
+
+table {
+    text-align: left;
+    margin: auto;
+}
+
+button.btn {
+    margin-top: 5rem;
+}

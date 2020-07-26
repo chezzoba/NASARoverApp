@@ -1,0 +1,15 @@
+<%- include('header') %>
+    <div class='head'>
+        <h1>Images of the Rover</h1>
+
+        <hr>
+
+        <div class="pictures">
+            <%pics.forEach((pic) => {%>
+                <img class="marspix" src=<%= pic.img_src %> alt="">
+                <%});%>
+        </div>
+
+    </div>
+
+<%- include('footer') %>
