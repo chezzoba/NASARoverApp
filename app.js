@@ -17,7 +17,6 @@ const cams = ['FHAZ', 'RHAZ', 'MAST', 'CHEMCAM', 'MAHLI', 'MARDI', 'NAVCAM',
 
 const rovers = ['Curiosity', 'Opportunity', 'Spirit'];
 
-
 app.get('/', (req, res) => {
     res.render(__dirname + '/views/index.ejs', {cams: cams, rovers: rovers});
 });
