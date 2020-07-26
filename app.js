@@ -22,7 +22,7 @@ function get_img(cam='None', res=res, rover='curiosity', sol=1000, req) {
 }
 
 app.get('/', (req, res) => {
-    res.render(__dirname + '/views/index.ejs', {cams: cams, rovers: rovers})
+    res.render(__dirname + '/views/index.ejs', {cams: cams, rovers: rovers});
 });
 
 app.post('/', (req, res, next) => {
