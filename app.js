@@ -26,8 +26,8 @@ app.post('/', (req, res, next) => {
     var link = 'https://api.nasa.gov/mars-photos/api/v1/rovers/' 
     + req.body.rover + '/photos?' + 'api_key=' + process.env.API_KEY;
 
-    if (cam === 'None') {
-        link = link + '&sol=' + sol;
+    if (req.body.cams === 'None') {
+        link = link + '&sol=' + req.body.sol;
     } else {
         link = link + '&camera=' + req.body.cams + '&sol=' + req.body.sol;
     }
