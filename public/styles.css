@@ -12,6 +12,7 @@
 
 body {
     background-color: #1d1135;
+    height: 100%
 }
 
 
@@ -68,5 +69,12 @@ button.btn {
 footer div {
     color: white;
     text-align: center;
-    margin-top: 3rem;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:30px;   /* Height of the footer */
+    background: #0c164f;
+ }
