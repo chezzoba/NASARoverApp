@@ -64,3 +64,9 @@ table {
 button.btn {
     margin-top: 5rem;
 }
+
+footer div {
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
